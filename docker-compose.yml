@@ -3,7 +3,7 @@ services:
   api:
     build: .
     volumes:
-      - .:/usr/app
+      - ./src:/usr/app
     ports:
       - 3000:3001
     environment:
